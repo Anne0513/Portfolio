@@ -6,7 +6,7 @@ import Techstack from "./Techstack";
 import Aboutcard from "./AboutCard";
 import laptopImg from "../../Assets/about.png";
 import Toolstack from "./Toolstack";
-import academicImg from "../../Assets/academic.png";
+import academicImg from "./academic.png";
 
 function About() {
   return (
