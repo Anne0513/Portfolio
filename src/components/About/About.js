@@ -7,6 +7,7 @@ import Aboutcard from "./AboutCard";
 import laptopImg from "../../Assets/about.png";
 import Toolstack from "./Toolstack";
 import OtherSkills from "./OtherSkills";
+import academicImg from "../../Assets/academic.png";
 
 
 function About() {
@@ -33,8 +34,9 @@ function About() {
             style={{ paddingTop: "120px", paddingBottom: "50px" }}
             className="about-img"
           >
-            <img src={laptopImg} alt="about" className="img-fluid" />
+            <img src={academicImg} alt="about" className="img-academic rounded-circle" style={{ width: "250px", height: "250px", objectFit: "cover" }/>
           </Col>
+          
         </Row>
         <h1 className="project-heading">
           Professional <strong className="purple">Skillset </strong>
