@@ -6,9 +6,6 @@ import Techstack from "./Techstack";
 import Aboutcard from "./AboutCard";
 import laptopImg from "../../Assets/about.png";
 import Toolstack from "./Toolstack";
-import OtherSkills from "./OtherSkills";
-import academicImg from "../../Assets/academic.png";
-
 
 function About() {
   return (
@@ -34,9 +31,8 @@ function About() {
             style={{ paddingTop: "120px", paddingBottom: "50px" }}
             className="about-img"
           >
-            <img src={academicImg} alt="about" className="img-academic rounded-circle" style={{ width: "250px", height: "250px", objectFit: "cover" }/>
+            <img src={laptopImg} alt="about" className="img-fluid" />
           </Col>
-          
         </Row>
         <h1 className="project-heading">
           Professional <strong className="purple">Skillset </strong>
@@ -48,11 +44,6 @@ function About() {
           <strong className="purple">Tools</strong> I use
         </h1>
         <Toolstack />
-
-        <h1 className="project-heading">
-        <strong className="purple">Other</strong> Skills
-        </h1>
-        <OtherSkills />
 
         <Github />
       </Container>
