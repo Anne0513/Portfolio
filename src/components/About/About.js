@@ -8,11 +8,11 @@ import laptopImg from "../../Assets/about.png";
 import Toolstack from "./Toolstack";
 
 import academicImg from "../../Assets/academic.png";
-import techImg from "../../Assets/tech.png";
+import techImg from "../../Assets/tech.jpg";
 import crossImg from "../../Assets/cross.png";
-import internImg from "../../Assets/intern.png";
-import innovationImg from "../../Assets/innovation.png";
-import englishImg from "../../Assets/english.png";
+import internImg from "../../Assets/intern.jpg";
+import innovationImg from "../../Assets/innovation.jpg";
+import englishImg from "../../Assets/english.jpg";
 
 function About() {
   return (
