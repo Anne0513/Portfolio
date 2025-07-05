@@ -4,7 +4,7 @@ import Button from "react-bootstrap/Button";
 import { CgWebsite } from "react-icons/cg";
 import { BsGithub } from "react-icons/bs";
 
-function ProjectCards(props) {
+function ProjectCards2(props) {
   return (
     <Card className="project-card-view">
       {/* 如果提供了音频路径，则显示音频播放器 */}
