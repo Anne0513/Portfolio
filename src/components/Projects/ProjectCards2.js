@@ -7,7 +7,14 @@ import { BsGithub } from "react-icons/bs";
 function ProjectCards(props) {
   return (
     <Card className="project-card-view">
-      <Card.Img variant="top" src={props.imgPath} alt="card-img" />
+      {/* 如果提供了音频路径，则显示音频播放器 */}
+      {props.audioPath && (
+        <audio controls style={{ width: "100%" }}>
+          <source src={props.audioPath} type="audio/mpeg" />
+          Your browser does not support the audio element.
+        </audio>
+      )}
+
       <Card.Body>
         <Card.Title>{props.title}</Card.Title>
         <Card.Text style={{ textAlign: "justify" }}>
@@ -17,11 +24,8 @@ function ProjectCards(props) {
           <BsGithub /> &nbsp;
           {props.isBlog ? "Blog" : "GitHub"}
         </Button>
-        {"\n"}
-        {"\n"}
 
-        {/* If the component contains Demo link and if it's not a Blog then, it will render the below component  */}
-
+        {/* 如果有 demoLink 且不是博客，则显示 Demo 按钮 */}
         {!props.isBlog && props.demoLink && (
           <Button
             variant="primary"
@@ -37,4 +41,5 @@ function ProjectCards(props) {
     </Card>
   );
 }
+
 export default ProjectCards;
