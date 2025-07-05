@@ -1,6 +1,7 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
+import ProjectCard2 from "./ProjectCards2";
 import Particle from "../Particle";
 import leaf from "../../Assets/Projects/leaf.png";
 import emotion from "../../Assets/Projects/emotion.png";
@@ -21,7 +22,7 @@ function Projects() {
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           <Col md={4} className="project-card">
-            <ProjectCard
+            <ProjectCard2
               title="My Music Project"
               description="基于论文复现的自动音频转钢琴MIDI生成与二次创作;Automatic Audio-to-Piano MIDI Generation and Creative Recomposition Based on Research Reproduction"
               ghLink="https://github.com/example"
