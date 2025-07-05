@@ -23,12 +23,11 @@ function Projects() {
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={chatify}
-              isBlog={false}
-              title="Chatify"
-              description="Personal Chat Room or Workspace to share resources and hangout with friends build with react.js, Material-UI, and Firebase. Have features which allows user for realtime messaging, image sharing as well as supports reactions on messages."
-              ghLink="https://github.com/soumyajit4419/Chatify"
-              demoLink="https://chatify-49.web.app/"
+              title="My Music Project"
+              description="基于论文复现的自动音频转钢琴MIDI生成与二次创作;Automatic Audio-to-Piano MIDI Generation and Creative Recomposition Based on Research Reproduction"
+              ghLink="https://github.com/example"
+              demoLink="https://example.com/demo"
+              audioPath="../../Assets/Projects/mixdown.mp3" // 👈 你的音频路径
             />
           </Col>
 
