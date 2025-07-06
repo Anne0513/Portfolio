@@ -9,6 +9,7 @@ import editor from "../../Assets/Projects/codeEditor.png";
 import suicide from "../../Assets/Projects/suicide.png";
 import bitsOfCode from "../../Assets/Projects/blog.png";
 import audiopath from "../../Assets/Projects/mixdown.mp3";
+import midi from "../../Assets/Projects/midi.png";
 
 function Projects() {
   return (
@@ -29,6 +30,7 @@ function Projects() {
               ghLink="https://github.com/example"
               demoLink="https://example.com/demo"
               audioPath={audiopath} // 👈 你的音频路径
+              imgPath={midi}
             />
           </Col>
 
