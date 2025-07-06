@@ -8,6 +8,7 @@ import emotion from "../../Assets/Projects/emotion.png";
 import editor from "../../Assets/Projects/codeEditor.png";
 import suicide from "../../Assets/Projects/suicide.png";
 import bitsOfCode from "../../Assets/Projects/blog.png";
+import audiopath from "../../Assets/Projects/mixdown.mp3";
 
 function Projects() {
   return (
@@ -27,7 +28,7 @@ function Projects() {
               description="基于论文复现的自动音频转钢琴MIDI生成与二次创作;Automatic Audio-to-Piano MIDI Generation and Creative Recomposition Based on Research Reproduction"
               ghLink="https://github.com/example"
               demoLink="https://example.com/demo"
-              audioPath="../../Assets/Projects/mixdown.mp3" // 👈 你的音频路径
+              audioPath={audiopath} // 👈 你的音频路径
             />
           </Col>
 
